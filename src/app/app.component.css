@@ -39,3 +39,10 @@ a{
 .icon:hover .but{
   background-color: transparent;
 }
+.rig{
+  float: right;
+  margin-top: -100px;
+}
+.grid{
+  background-color: blueviolet;
+}
