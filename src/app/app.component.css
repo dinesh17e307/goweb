@@ -7,3 +7,35 @@ p {
  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  font-style: initial;
 }
+a{
+  color: black;
+}
+.but{
+  background-color: transparent;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 15px;
+}
+.icon{
+  position: relative;
+  display: block;
+}
+.drop{
+  display: none;
+  position: absolute;
+  background-color:lightgray;
+  min-width: 158px;
+  z-index: 1;
+
+}
+.drop a:hover{
+  background-color: black;
+  color: white;
+}
+
+.icon:hover .drop{
+  display: block;
+}
+.icon:hover .but{
+  background-color: transparent;
+}
