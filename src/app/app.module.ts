@@ -3,14 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
  import {MatButtonModule} from '@angular/material/button';
 import {MatGridListModule} from '@angular/material/grid-list';
-
+import { MatVideoModule } from 'mat-video';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule,MatButtonModule,MatGridListModule],
+  imports:      [ BrowserModule, FormsModule,MatButtonModule,MatGridListModule,MatVideoModule],
   declarations: [ AppComponent, HelloComponent ],
   bootstrap:    [ AppComponent ]
 })

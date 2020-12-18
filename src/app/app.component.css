@@ -43,6 +43,28 @@ a{
   float: right;
   margin-top: -100px;
 }
-.grid{
-  background-color: blueviolet;
+.grid1{
+  background-image: url(https://www.teahub.io/photos/full/88-880026_web-design-images-hd.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.grid2{
+  background-image: url(https://www.wallpaperup.com/uploads/wallpapers/2014/05/20/355019/fdd28f59a8d8f2260a8f50e461cc3102-1000.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.grid1:hover{
+   transform: rotateX(180deg);
+}
+.grid2:hover{
+   transform: rotateX(180deg);
+}
+.con{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: large;
+}
+.head{
+  font-size: xx-large;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

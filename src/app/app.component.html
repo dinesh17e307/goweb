@@ -1,28 +1,56 @@
 <table cellpadding="10px" class="tab">
   <tr><td colspan="2" rowspan="2"><img  width="200" heigth="100" src="https://scontent.fmaa1-3.fna.fbcdn.net/v/t1.0-9/56790835_259719721486836_8181305012547223552_n.jpg?_nc_cat=101&ccb=2&_nc_sid=6e5ad9&_nc_ohc=4ZBSNjIFnDYAX_nEfyk&_nc_ht=scontent.fmaa1-3.fna&oh=dcec16d34d27b3c1bac2cac5b481f678&oe=6002517C" alt=""></td>
-  <td ><div class="icon"><button class="but" mat-button >Home</button>
-  <div class="drop">
-  <a href="#">h1</a><br>
-  <a href="#">h2</a><br>
-  <a href="#">h3</a><br>
-  </div>
-  </div> 
+  <td ><button class="but" mat-button >Home</button>
   </td>
   <td>Contact us</td><td>About
     </td><td>Projects</td>
     <td>Login
       </td></tr>
       </table>
-    <mat-grid-list cols="4"  rowHeight="100px">
-  <mat-grid-tile  class="grid"
+  <mat-grid-list cols="4"  rowHeight="100px">
+  <mat-grid-tile  class="grid1"
   [colspan]="2"
-      [rowspan]="3">
+      [rowspan]="4">
+
+  </mat-grid-tile>
+  <mat-grid-tile class="grid2"
+  [colspan]="2"
+      [rowspan]="4">
     one
   </mat-grid-tile>
-  <mat-grid-tile class="grid"
-  [colspan]="3"
-      [rowspan]="3">
+  
+</mat-grid-list><br>
+<mat-grid-list cols="5" rowHeight="100px">
+<mat-grid-tile class="grid2"
+  [colspan]="2"
+      [rowspan]="4">
     one
   </mat-grid-tile>
+  <mat-grid-tile class="con"
+    [colspan]= "3" 
+     [rowspan]="4">
+  <table><tr><td><span class="head">The company is about ,what you think</span>
+    </td></tr>
+  <tr><td>
+  Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</td></tr></table>
+  </mat-grid-tile>
+  <mat-grid-tile class="con"
+    [colspan]= "5" 
+     [rowspan]="1">
+   There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text
+  </mat-grid-tile>
+
 </mat-grid-list>
- 
+ <mat-grid-list cols="5" rowHeight="100px">
+<mat-grid-tile class=""
+  [colspan]="5"
+      [rowspan]="5">
+    >
+    <mat-video
+        [src]="https://youtu.be/ulqKJYtsPZQ"
+        [title]="hello"
+        [autoplay]="autoplay"
+        
+      >
+      </mat-video>
+  </mat-grid-tile>
