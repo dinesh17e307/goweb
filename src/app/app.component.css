@@ -53,6 +53,11 @@ a{
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
+.grid3{
+  background-image: url(https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
 .grid1:hover{
    transform: rotateX(180deg);
 }
@@ -71,6 +76,10 @@ a{
 .textbox{
   background-image: url(https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
   opacity: 0.5;
+  position: absolute;
+}
+.gif{
+  position: relative;
 }
 .intext{
   display: none;
@@ -80,8 +89,16 @@ a{
   font-size: xx-large;
 }
 .textbox:hover{
-  opacity: 0.9;
+  opacity: 1;
 }
 .textbox:hover  .intext{
   display: block;
+}
+.taskbar{
+   background-color: rgba(12, 12, 216, 0.527);
+   opacity: 0.9;
+   color:black;
+}
+.logo{
+  
 }
