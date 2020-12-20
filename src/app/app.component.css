@@ -9,6 +9,21 @@ p {
 }
 a{
   color: black;
+}.getit{
+  justify-content: center;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  width: 250px;
+  padding: 2px;
+}
+.offer{
+  background-color: rgb(209, 202, 202);
+  font-family: gd-sage,"Times","Times New Roman",serif;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.5;
 }
 .but{
   background-color: transparent;
@@ -52,6 +67,11 @@ a{
 }
 .grid1{
   background-image: url(https://www.teahub.io/photos/full/88-880026_web-design-images-hd.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.virat{
+  background-image: url(https://www.transparentpng.com/thumb/special-offer/special-offers-red-image-pictures-31.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
