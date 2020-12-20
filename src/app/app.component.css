@@ -24,6 +24,7 @@ a{
   font-weight: 700;
   font-size: 2rem;
   line-height: 1.5;
+ 
 }
 .but{
   background-color: transparent;
@@ -71,7 +72,7 @@ a{
   background-size: 100% 100%;
 }
 .virat{
-  background-image: url(https://www.transparentpng.com/thumb/special-offer/special-offers-red-image-pictures-31.png);
+  background-image: url();
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
